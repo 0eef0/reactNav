@@ -23,7 +23,7 @@ const Navbar = () => {
     return (
         <div id='navbar'>
             <div id='showBtn'>
-                <AiOutlineMenu size={80} style={{transition: 'all 1s'}} onClick={() => {setVisible(!visible)}} style={(visible) ? {transform: 'rotate(90deg)'} : {}} />
+                <AiOutlineMenu size={80} onClick={() => {setVisible(!visible)}} style={(visible) ? {transform: 'rotate(90deg)'} : {}} />
             </div>
             <div id='logo'>
                 <h1>CO. Name</h1>
